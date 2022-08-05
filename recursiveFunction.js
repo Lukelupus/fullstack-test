@@ -1,4 +1,4 @@
-function recursive(n) {
+function lowestWholeNumberDivisible(n) {
     if(n%2 === 0 && n%3 === 0 && n%10 === 0) {
         console.log(n)
     }
@@ -7,4 +7,4 @@ function recursive(n) {
     }
 }
 
-recursive(1)
+lowestWholeNumberDivisible(1)
